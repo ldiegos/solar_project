@@ -1,0 +1,53 @@
+[
+    {
+        "Date": "2024-07-12 22:05:00",
+        "values":
+        {        
+            "battery_voltaje": 48,
+            "max_charge_current": 70,
+            "charger_enabled": true,
+            "battery_preset": "user defined",
+            "expert_mode": true,
+            "absorption_voltaje": 55.2,
+            "float_voltaje": 53.6,
+            "equalization_voltaje": "disabled",
+            "rebulk_voltage_offset": 0.60,
+            "absorption_duration": "fixed",
+            "absorption_time": 1,
+            "tail_current": "disabled",
+            "equalization_current_percentage": 0,
+            "temperature_compensation": "disabled",
+            "low_temperature_cutoff": 5
+            //Absorption Voltage: 3.45V/cell * 16 = 55.2,
+            //Absorption Time: ~1h
+            //Float Voltage: 3.35V/cell * 16 =  53.6
+        }
+    },
+    {
+        "Date": "2024-07-12 22:07:00",
+        "values":
+        {        
+            "battery_voltaje": 48,
+            "max_charge_current": 70,
+            "charger_enabled": true,
+            "battery_preset": "user defined",
+            "expert_mode": true,
+            //"absorption_voltaje": 56.8 => 3.55,
+            "absorption_voltaje": 56.8,
+            //"float_voltaje": 56 => 3.50,
+            "float_voltaje": 56,
+            "equalization_voltaje": "disabled",
+            "rebulk_voltage_offset": 0.60,
+            "absorption_duration": "fixed",
+            "absorption_time": 1,
+            "tail_current": "disabled",
+            "equalization_current_percentage": 0,
+            "temperature_compensation": "disabled",
+            "low_temperature_cutoff": 5
+            //Absorption Voltage: 3.45V/cell * 16 = 55.2,
+            //Absorption Time: ~1h
+            //Float Voltage: 3.35V/cell * 16 =  53.6
+        }
+    }
+
+]
