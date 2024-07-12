@@ -30,6 +30,7 @@
         "charge OCP Delay S": "This value will reduce to 10A if you overflow the continued charge value for the number of seconds",        
         "charge OCP Delay S": 3,
         "charge OCPR time S": "This number of seconds will wait the BMS until connect again the charge to the continued charge curr value",        
-        "charge OCPR time S": 60
+        "charge OCPR time S": 60,
+        
     }
 ]
