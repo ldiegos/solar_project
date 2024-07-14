@@ -1,6 +1,7 @@
 [
     {
         "Date": "2024-07-12 22:05:00",
+        "Description": "This is the offgrid garage configuration",
         "values":
         {        
             "battery_voltaje": 48,
@@ -25,6 +26,7 @@
     },
     {
         "Date": "2024-07-12 22:07:00",
+        "Description": "This is the top balance configuration",
         "values":
         {        
             "battery_voltaje": 48,
@@ -44,9 +46,6 @@
             "equalization_current_percentage": 0,
             "temperature_compensation": "disabled",
             "low_temperature_cutoff": 5
-            //Absorption Voltage: 3.45V/cell * 16 = 55.2,
-            //Absorption Time: ~1h
-            //Float Voltage: 3.35V/cell * 16 =  53.6
         }
     }
 
